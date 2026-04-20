@@ -54,9 +54,9 @@ class Empleado {
     // Aumento por monto fijo
     void aumentarPorMonto(double monto, String motivo) {
         salario += monto;
-        System.out.println("Aumento por monto fijo a " + nombre +
-                " | Motivo: " + motivo +
-                " | Nuevo salario: " + salario);
+        System.out.println("Aumento por monto fijo a " + nombre);
+        System.out.println("Motivo: " + motivo);
+        System.out.println("Nuevo salario: " + salario);
     }
 
     void mostrarInformacion() {
