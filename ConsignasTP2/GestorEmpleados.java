@@ -42,7 +42,6 @@ class Empleado {
 
     static int getCantidadEmpleados() { return cantidadEmpleados; }
 
-    // Aumento por porcentaje
     void aumentarPorPorcentaje(double porcentaje, String motivo) {
         double aumento = salario * porcentaje / 100;
         salario += aumento;
@@ -51,7 +50,6 @@ class Empleado {
         System.out.println("Nuevo salario: " + salario);
     }
 
-    // Aumento por monto fijo
     void aumentarPorMonto(double monto, String motivo) {
         salario += monto;
         System.out.println("Aumento por monto fijo a " + nombre);
